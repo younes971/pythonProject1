@@ -59,7 +59,3 @@ nelinumero_koodi = "".join(str(random.randint(1,6)) for _ in range (4))
 
 print(f"kolmenumero_koodi: {kolmenumero_koodi}")
 print(f"nelinumero_koodi: {nelinumero_koodi}")
-
-
-
-
