@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Lato;
+    src: url("Lato-Regular.ttf") format("truetype");
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+li a {
+    text-decoration: magenta;
+}
+
+li a:hover {
+    background-color: chocolate;
+}
+
+li a:hover::after {
+    content: " #";
+}
+
+main {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: gray;
+}
